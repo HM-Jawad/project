@@ -1,0 +1,268 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: initial;
+}
+
+html{
+	scroll-behavior: smooth;
+	font-size: 20px;
+}
+
+
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(back.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul   /* for top buttons like home services and news*/
+{
+	float: right;
+	list-style-type: none;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+
+ul li
+{
+	display: inline-block;   /*to place home buttons in the same line*/
+}
+
+ul li a               /*to edit inside buttonsz*/
+{
+text-decoration: none;
+color: cyan;
+padding: 5px 20px;
+border: 2px solid #fff;
+
+transition: 0.6s ease;
+}
+
+ul li a:hover      
+{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a
+{
+	background-color: #fff;
+	color: #0099cc;
+}
+
+
+
+h1
+{
+	font-size: 70px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	margin-top: 220px;
+	margin-left: 470px;
+}
+
+p
+{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	margin-top: 360px;
+	margin-left: 370px;	
+}
+
+img
+{
+	position: absolute;
+	text-align: bottom;
+	height: 200px;
+	width: 1138px;
+	margin-top: 450px;
+
+}
+
+
+.AboutUs h1
+{
+	margin-top: 1920px;
+	margin-left: 580px;
+	font-size: 40px;
+	color:white;	
+}
+.about1 p
+{
+	margin-top: 1980px;
+	margin-left: 10px;
+	font-size: 40px;
+	color: white;	
+}
+.aboutsteps p
+{
+	margin-top: 2050px;
+	margin-left: 150px;
+	font-size: 20px;
+	color: white;	
+}
+
+
+.services h1
+{
+	margin-top: 640px;
+	margin-left: 590px;
+	font-size: 50px;
+	color: white;		
+}
+.services p
+{
+	margin-top: 750px;
+	margin-left: 190px;
+	font-size: 25px;
+	color: white;		
+}
+
+
+
+.jawad
+{
+
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(22.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.pic3
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}	
+.pic4
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(4.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.button
+{
+	position: absolute;
+	margin-top: 321px;
+	margin-left: 450px;
+
+}
+
+.btn
+{
+	border: 2px solid white;
+	padding: 10px 30px;
+	color: #00ace6;
+	margin-right: ;
+	font-size:12px ;
+	text-transform: uppercase;
+	transition: 0.6s ease;
+}
+
+.btn1:hover
+{
+	background-color: white;
+	font-family: "Roboto";
+}
+.btn2:hover
+{
+	background-color: white;
+	font-family: "Roboto";
+}
+.btn3:hover
+{
+	background-color: white;
+	font-family: "Roboto",;
+}
+
+/*contact form*/
+.contact
+{
+	width 85%: 
+	max-width:600px;
+	background:black;
+	position: absolute;
+	top: 157%;
+	left:50%;
+	transform:translate(-50%,50%); 
+	padding:30px 40px;
+	box-sizing:border-box;
+	border-radius:8px;
+	text-align:center;
+	font-family:"Montserrat",sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: skyblue;
+}
+
+.contactheading h1
+{
+	margin-top: 1240px;
+	margin-left: 520px;
+	font-size: 45px;	
+}
+
+
+
+/*footer codings*/
+
+.social-footer {
+  padding: 1rem;
+  background: #8a8a8a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
